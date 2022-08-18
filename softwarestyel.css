@@ -131,13 +131,3 @@ html {
 .note > p > button:not(:disabled):hover:active {
   transform: scale(1.05) translateY(0.125rem);
 }
-
-.note > p > button:focus {
-  outline: 0 solid transparent;
-}
-@media only screen and (max-width: 600px) {
-  .naVBarcontainer {
-    display: flex;
-    align-content: center;
-  }
-}
